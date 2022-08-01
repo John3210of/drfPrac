@@ -1,38 +1,22 @@
 from django.test import TestCase
 import json
+import numpy as np
 # Create your tests here.
 
-import json
+# a=np.array([10,20,30,40])
 
-maData = [{
-    "name": "asdf",
-    "age": 1,
-    "active": True,
-    "list": [
-        {
-            "lst1": "123",
-            "lst2": "234",
-            "len": 2
-        }
+# print(np.min(a))
 
-    ]
-},
-{
-    "name": "asdf",
-    "age": 1123,
-    "active": True,
-    "list": [
-        {
-            "lst1": "121233",
-            "lst2": "234",
-            "len": 2123
-        }
+# print(np.where(a>30,a*2,3))
 
-    ]
-}
-]
+# a=10
+# b=20
+# c=3
 
-for i in maData:
-    print(i["name"])
+# a=b!=c
 
+# print("*"*89)
+# print(a)
+# print(b)
+# print(c)
 
