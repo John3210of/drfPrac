@@ -17,6 +17,7 @@ class Choice(models.Model):
 class hey(models.Model):
     target = models.IntegerField(default=1)
     target2 = models.IntegerField(default=3)
+    target3 = models.PositiveIntegerField(default=5)
 
 class Bbs(models.Model):
     created = models.DateTimeField(auto_now_add=True)
